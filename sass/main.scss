@@ -1,0 +1,9 @@
+@import "./layout/header";
+@import "./layout/container";
+@import "./layout/footer";
+
+@import"./utils/variables";
+
+body{
+    background-color:  rgba(184, 8, 8, 0.8);
+}

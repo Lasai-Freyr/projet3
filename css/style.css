@@ -1,0 +1,43 @@
+header {
+  background-color: #23a74a;
+}
+header h1 {
+  color: #d0ee28f1;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+}
+.container .menues {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+}
+.container section {
+  border: 2px solid black;
+  width: 30%;
+}
+
+footer {
+  background-color: #23a74a;
+  width: 100%;
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: space-between;
+}
+footer p, footer a {
+  color: #d0ee28f1;
+}
+footer div {
+  width: 25%;
+}
+
+body {
+  background-color: rgba(184, 8, 8, 0.8);
+}
+
+/*# sourceMappingURL=style.css.map */
