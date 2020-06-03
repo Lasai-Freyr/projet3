@@ -1,43 +1,67 @@
 header {
   background-color: #23a74a;
+  width: 100%;
 }
 header h1 {
   color: #d0ee28f1;
   text-align: center;
+  margin: 0px;
 }
 
 .container {
   background-color: white;
-}
-.container .menues {
-  display: inline-block;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  align-content: space-around;
+  position: relative;
+  min-height: 100%;
+  margin: 0 auto;
 }
 .container section {
   border: 2px solid black;
+}
+.container section .menu {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: space-around;
+  border: 2px solid black;
   width: 30%;
+  margin: auto;
+  text-align: center;
+  vertical-align: top;
+}
+.container section .menu a {
+  text-decoration: none;
+  color: black;
+}
+.container section .menu h3 {
+  margin: auto;
 }
 
 footer {
   background-color: #23a74a;
   width: 100%;
-  display: inline-block;
-  flex-direction: row;
-  align-items: flex-start;
-  align-content: space-between;
+  position: fixed;
+  bottom: 0;
 }
 footer p, footer a {
   color: #d0ee28f1;
+  text-decoration: none;
 }
 footer div {
   width: 25%;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 body {
   background-color: rgba(184, 8, 8, 0.8);
+  margin-top: 0px;
+  /*max-width: 1000px;*/
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

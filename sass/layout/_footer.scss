@@ -1,14 +1,17 @@
 footer{
     background-color: #23a74a;
     width: 100%;
-    display: inline-block;
-    flex-direction: row;
-    align-items: flex-start;
-    align-content: space-between;
+    position: fixed;
+    bottom: 0;
+    
     p,a {
         color:#d0ee28f1;
+        text-decoration: none;
     }
     div {
         width: 25%;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
