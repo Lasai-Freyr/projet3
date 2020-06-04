@@ -1,8 +1,14 @@
+@import "./components/wiggle.scss";
+@import "./components/prochainement.scss";
+
 @import "./layout/header";
 @import "./layout/container";
 @import "./layout/footer";
 
+@import"./page/main-menus.scss";
+
 @import"./utils/variables";
+@import"./utils/mixin.scss";
 
 body{
     background-color:  rgba(184, 8, 8, 0.8);

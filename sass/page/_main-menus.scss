@@ -1,0 +1,42 @@
+.menues{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    align-content: space-around; 
+}
+
+.menu{        
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%;
+    height: 400px;
+    text-align: center;          
+    border: 2px solid black;
+    margin: 25px;
+    
+    &--1{
+        background-color: #f36666;
+    }
+    &:hover{
+        opacity: 0.5;
+        p, h3{
+            display: inline-block;            
+            transform: scale(2) 2000ms ease-in-out;
+        }
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    h3{
+        margin: auto;
+    }
+
+}
