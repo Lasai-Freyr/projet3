@@ -136,13 +136,6 @@ footer .contact {
 .menu--4 {
   background-color: #ffffff;
 }
-.menu:hover {
-  opacity: 0.5;
-}
-.menu:hover p, .menu:hover h3 {
-  display: block;
-  transform: scale(2) 2000ms ease-in-out;
-}
 .menu a {
   text-decoration: none;
   color: black;
@@ -151,6 +144,10 @@ footer .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.menu a:hover {
+  opacity: 0.45;
+  transform: scale(2) 2000ms ease-in-out;
 }
 
 .carte {
