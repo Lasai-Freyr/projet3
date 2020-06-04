@@ -2,3 +2,8 @@
     opacity: 0.5;
     scale: 1.1;
 }
+
+@mixin dim-main-menu{
+    width: 30%;
+    height: 400px;
+}

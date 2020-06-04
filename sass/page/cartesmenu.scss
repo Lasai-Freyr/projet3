@@ -1,0 +1,44 @@
+.carte{        
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    text-align: center;          
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 40px;
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        h3{
+            width: 80%;
+            margin: auto;
+        }
+        .menu-prix{
+            text-align: right;
+            width: 15%;
+            margin-right: 50px;
+        }
+        .menu-description{
+            min-width: 52%;
+            text-align: left;
+            margin-left: 50px;
+        }
+    }   
+    &--1{
+        background-color: #f36666;
+    }
+    &--2{
+        background-color: #87d4e7;
+    }
+    &--3{
+        background-color: #b3fa79;
+    }
+    &--4{
+        background-color: #ffffff;
+    }
+}

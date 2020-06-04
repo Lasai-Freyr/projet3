@@ -1,3 +1,5 @@
+@import"./base/typography.scss";
+
 @import "./components/wiggle.scss";
 @import "./components/prochainement.scss";
 
@@ -6,6 +8,7 @@
 @import "./layout/footer";
 
 @import"./page/main-menus.scss";
+@import"./page/cartesmenu.scss";
 
 @import"./utils/variables";
 @import"./utils/mixin.scss";
