@@ -75,10 +75,41 @@ header{
     }
     
 }
+@mixin underlines($color) {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    &:before,
+    &:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 0px;
+    height: 2px;
+    margin: auto;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.75s;
+    opacity: 0;
+    background-color: darken($color,5%);
+    left: 0;             
+    }       
+}
+
 .carte{
+      
     &--1{
-        
-        
+        .underline{        
+            @include underlines($color: black);            
+            &:hover {
+                &:before,
+                &:after {
+                    width: 100%;
+                    opacity: 1;
+                }
+            }
+        } 
     }        
     &--2{       
         .nom{
@@ -88,21 +119,61 @@ header{
         }
         .entree{
             color: #c67412;
+            .underline{        
+                @include underlines($color: #c67412);            
+                &:hover {
+                    &:before,
+                    &:after {
+                        width: 100%;
+                        opacity: 1;
+                    }
+                }
+            }             
         }
         .principal{
             color: #a56799;
+            .underline{        
+                @include underlines($color: #a56799);            
+                &:hover {
+                    &:before,
+                    &:after {
+                        width: 100%;
+                        opacity: 1;
+                    }
+                }
+            } 
         }
         .dessert{
             color: #6e4ccc;
+            .underline{        
+                @include underlines($color: #6e4ccc);            
+                &:hover {
+                    &:before,
+                    &:after {
+                        width: 100%;
+                        opacity: 1;
+                    }
+                }
+            } 
         }
     }
     &--3{
-       
+    
         .nom{
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-image: -webkit-linear-gradient(left, #0230df 30%, #1a91fb 66%);
         }
+        .underline{        
+            @include underlines($color: black);            
+            &:hover {
+                &:before,
+                &:after {
+                    width: 100%;
+                    opacity: 1;
+                }
+            }
+        } 
     }
     &--4{
         
@@ -111,8 +182,19 @@ header{
             -webkit-text-fill-color: transparent;
             background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
         }
+        .underline{        
+            @include underlines($color: black);            
+            &:hover {
+                &:before,
+                &:after {
+                    width: 100%;
+                    opacity: 1;
+                }
+            }
+        } 
     }
 }
+
 
     .note{
         -webkit-background-clip: text;

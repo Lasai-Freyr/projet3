@@ -60,6 +60,30 @@ header h1, header a {
   background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
 }
 
+.carte--1 .underline {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.carte--1 .underline:before, .carte--1 .underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: black;
+  left: 0;
+}
+.carte--1 .underline:hover:before, .carte--1 .underline:hover:after {
+  width: 100%;
+  opacity: 1;
+}
 .carte--2 .nom {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -68,21 +92,141 @@ header h1, header a {
 .carte--2 .entree {
   color: #c67412;
 }
+.carte--2 .entree .underline {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.carte--2 .entree .underline:before, .carte--2 .entree .underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: #af6610;
+  left: 0;
+}
+.carte--2 .entree .underline:hover:before, .carte--2 .entree .underline:hover:after {
+  width: 100%;
+  opacity: 1;
+}
 .carte--2 .principal {
   color: #a56799;
 }
+.carte--2 .principal .underline {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.carte--2 .principal .underline:before, .carte--2 .principal .underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: #985a8c;
+  left: 0;
+}
+.carte--2 .principal .underline:hover:before, .carte--2 .principal .underline:hover:after {
+  width: 100%;
+  opacity: 1;
+}
 .carte--2 .dessert {
   color: #6e4ccc;
+}
+.carte--2 .dessert .underline {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.carte--2 .dessert .underline:before, .carte--2 .dessert .underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: #5e38c6;
+  left: 0;
+}
+.carte--2 .dessert .underline:hover:before, .carte--2 .dessert .underline:hover:after {
+  width: 100%;
+  opacity: 1;
 }
 .carte--3 .nom {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #0230df 30%, #1a91fb 66%);
 }
+.carte--3 .underline {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.carte--3 .underline:before, .carte--3 .underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: black;
+  left: 0;
+}
+.carte--3 .underline:hover:before, .carte--3 .underline:hover:after {
+  width: 100%;
+  opacity: 1;
+}
 .carte--4 .nom {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
+}
+.carte--4 .underline {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.carte--4 .underline:before, .carte--4 .underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.75s;
+  opacity: 0;
+  background-color: black;
+  left: 0;
+}
+.carte--4 .underline:hover:before, .carte--4 .underline:hover:after {
+  width: 100%;
+  opacity: 1;
 }
 
 .note {
