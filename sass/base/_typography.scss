@@ -1,3 +1,129 @@
 h2{
     text-align: center;
 }
+
+footer{
+    p,a {
+        color:#fdcb46;
+        text-decoration: none;
+    }
+}
+
+header{
+    h1, a{
+        color: #fdcb46;
+        text-align: center;
+        margin: 0px;
+        text-decoration: none;
+    }
+}
+
+.next{
+    p{
+        margin-bottom: 0px;
+        color: #fdcb46;
+    }
+}
+.menu {
+    &--1{
+        p{
+            color: black;
+            font-weight: bold;
+        }
+        .fas{
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(left, #f15a61 60%, #f6916a 30%);
+            size: 160px;
+        }
+        .nom{
+            color: black;
+        }
+    }
+    &--2{
+        p{
+            color: #c77412;
+            font-weight: bold;
+        }
+        .nom{
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient((left, #d8852e 30%, #905bfd 66%));
+        }
+    }
+    &--3{
+        p{
+            color: #0887fb;
+            font-weight: bold;
+        }
+        .nom{
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(left, #0230df 30%, #1a91fb 66%);
+        }
+    }
+    &--4{
+        p{
+            color: #72bf56;
+            font-weight: bold;
+        }
+        .nom{
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
+        }
+    }
+    
+}
+.carte{
+    &--1{
+        
+        
+    }        
+    &--2{       
+        .nom{
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(left, #d8852e 30%, #905bfd 66%);
+        }
+        .entree{
+            color: #c67412;
+        }
+        .principal{
+            color: #a56799;
+        }
+        .dessert{
+            color: #6e4ccc;
+        }
+    }
+    &--3{
+       
+        .nom{
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(left, #0230df 30%, #1a91fb 66%);
+        }
+    }
+    &--4{
+        
+        .nom{
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
+        }
+    }
+}
+
+    .note{
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, #f05160 20%, #f6916a 80%);
+        width: auto;
+        text-align: center;
+        font-size: 50px;
+    }
+.next{
+    .fas{
+        color: #fdcb46;
+    }
+}

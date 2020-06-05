@@ -3,11 +3,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-    width: 45%;
-    text-align: center;          
-    border: 2px solid black;
+    width: 620px;
+    text-align: center;
     margin: auto;
     margin-bottom: 40px;
+    box-shadow: 0px 5px 5px #ededed,0px -5px 5px #ededed,5px 0px 5px #ededed,-5px 0px 5px #ededed;
+
     section{
         display: flex;
         flex-wrap: wrap;
@@ -20,25 +21,34 @@
         }
         .menu-prix{
             text-align: right;
-            width: 15%;
+            width: 13%;
             margin-right: 50px;
         }
         .menu-description{
-            min-width: 52%;
+            min-width: 51%;
             text-align: left;
             margin-left: 50px;
         }
     }   
     &--1{
-        background-color: #f36666;
-    }
+        background-color: #fcdfdb;
+    }        
     &--2{
-        background-color: #87d4e7;
+        background-color: #fff5fe;
+        h2{
+            color: #c77412;
+        }
     }
     &--3{
-        background-color: #b3fa79;
+        background-color: #f9f9f9;
+        h2{
+            color: #0887fb;
+        }
     }
     &--4{
-        background-color: #ffffff;
+        background-color: #fdfffd;
+        h2{
+            color: #72bf56;
+        }
     }
 }
