@@ -54,6 +54,12 @@ header h1, header a {
   color: #fdcb46;
 }
 
+.menu .mainmenu, .carte .mainmenu {
+  margin: 0px;
+}
+.menu .nom, .carte .nom {
+  margin: 0;
+}
 .menu--1 .mainmenu, .carte--1 .mainmenu {
   color: black;
   font-weight: bold;
@@ -70,7 +76,6 @@ header h1, header a {
   font-family: "mashan";
   font-size: 34px;
   font-weight: lighter;
-  margin: 0;
 }
 .menu--1 .underline, .carte--1 .underline {
   font-family: "segoe";

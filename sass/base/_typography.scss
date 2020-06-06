@@ -76,6 +76,12 @@ header{
     }
 }
 .menu,.carte {
+    .mainmenu{
+        margin: 0px;
+    }
+    .nom{
+        margin: 0;
+    }
     &--1{
         .mainmenu{
             color: black;
@@ -92,8 +98,7 @@ header{
             color: black;
             font-family: 'mashan';
             font-size: 34px;
-            font-weight: lighter;
-            margin: 0;            
+            font-weight: lighter;            
         }
         .underline{ 
             font-family: 'segoe';       
