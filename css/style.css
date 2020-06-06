@@ -19,6 +19,11 @@
   src: url(../police/martel/Martel-DemiBold.ttf) format("truetype");
 }
 @font-face {
+  font-family: "martelB";
+  /* menu 2 menu*/
+  src: url(../police/martel/Martel-ExtraBold.ttf) format("truetype");
+}
+@font-face {
   font-family: "dancing";
   /* menu titre 3*/
   src: url(../police/DancingScript/DancingScript.ttf) format("truetype");
@@ -27,6 +32,11 @@
   font-family: "typo";
   /* menu 4 texte*/
   src: url(../police/TYPO_COMICS_demo.otf) format("truetype");
+}
+@font-face {
+  font-family: "typol";
+  /* menu 4 menu*/
+  src: url(../police/TYPO_COMICS_Light_demo.otf) format("truetype");
 }
 @font-face {
   font-family: "kaushan";
@@ -45,6 +55,7 @@
 }
 h2 {
   text-align: center;
+  font-size: 30px;
 }
 
 footer p, footer a {
@@ -71,6 +82,8 @@ header h1, header a {
 
 .menu .mainmenu, .carte .mainmenu {
   margin: 0px;
+  margin-top: 10px;
+  font-size: 24px;
 }
 .menu .nom, .carte .nom {
   margin: 0;
@@ -122,16 +135,22 @@ header h1, header a {
   font-weight: lighter;
   font-size: 14px;
 }
+@media all and (max-width: 950px) {
+  .menu--1 .menu-description, .menu--1 .menu-prix, .carte--1 .menu-description, .carte--1 .menu-prix {
+    font-size: 12px;
+  }
+}
 .menu--2 .mainmenu, .carte--2 .mainmenu {
   color: #c77412;
   font-weight: bolder;
-  font-family: "martel";
+  font-family: "martelB";
 }
 .menu--2 .nom, .carte--2 .nom {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #d8852e 30%, #905bfd 66%);
   font-family: "croissant";
+  font-size: 24px;
 }
 .menu--2 .entree, .carte--2 .entree {
   color: #c67412;
@@ -218,13 +237,17 @@ header h1, header a {
   font-family: "martel";
   font-size: 14px;
 }
+@media all and (max-width: 950px) {
+  .menu--2 .menu-description, .menu--2 .menu-prix, .carte--2 .menu-description, .carte--2 .menu-prix {
+    font-size: 12px;
+  }
+}
 .menu--2 .underline, .carte--2 .underline {
   font-weight: bold;
   font-family: "martel";
 }
 .menu--3 .mainmenu, .carte--3 .mainmenu {
   color: #0887fb;
-  font-weight: bold;
   font-family: "segoe";
 }
 .menu--3 .nom, .carte--3 .nom {
@@ -266,10 +289,15 @@ header h1, header a {
   font-weight: bold;
   font-size: 14px;
 }
+@media all and (max-width: 950px) {
+  .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
+    font-size: 10px;
+  }
+}
 .menu--4 .mainmenu, .carte--4 .mainmenu {
   color: #72bf56;
-  font-weight: bold;
-  font-family: "typo";
+  font-family: "typol";
+  font-weight: lighter;
 }
 .menu--4 .nom, .carte--4 .nom {
   -webkit-background-clip: text;
@@ -304,9 +332,18 @@ header h1, header a {
   width: 100%;
   opacity: 1;
 }
-.menu--4 .menu-description, .menu--4 .menu-prix, .menu--4 .underline, .carte--4 .menu-description, .carte--4 .menu-prix, .carte--4 .underline {
+.menu--4 .underline, .carte--4 .underline {
   font-family: "typo";
   font-weight: normal;
+}
+.menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
+  font-family: "typo";
+  font-weight: normal;
+}
+@media all and (max-width: 950px) {
+  .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
+    font-size: 14px;
+  }
 }
 
 .note {
@@ -388,8 +425,8 @@ header {
   position: relative;
   min-height: 100%;
   margin: 0;
-  padding: 10px;
-  padding-bottom: 90px;
+  padding-bottom: 100px;
+  padding-top: 20px;
 }
 
 footer {
@@ -411,7 +448,7 @@ footer .contact {
 }
 
 .menues {
-  width: 75%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -420,14 +457,19 @@ footer .contact {
   align-items: center;
   align-content: space-around;
 }
+@media all and (max-width: 1150px) {
+  .menues {
+    width: 100%;
+  }
+}
 
 .menu {
   /* display: flex;
    flex-wrap: wrap;
    flex-direction: column;
    justify-content: space-around;*/
-  width: 30%;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   text-align: center;
   margin: 25px;
   box-shadow: 0px 5px 5px #ededed, 0px -5px 5px #ededed, 5px 0px 5px #ededed, -5px 0px 5px #ededed;
@@ -441,7 +483,7 @@ footer .contact {
 .menu .menu-text:hover {
   opacity: 0.45;
   transform: scale(1.3);
-  transition: 1000ms ease-in-out;
+  transition: 500ms ease-in-out;
   overflow: hidden;
 }
 .menu--1 {
@@ -471,10 +513,17 @@ footer .contact {
   flex-direction: column;
   justify-content: space-around;
   width: 680px;
+  height: 800px;
   text-align: center;
   margin: auto;
   margin-bottom: 40px;
   box-shadow: 0px 5px 5px #ededed, 0px -5px 5px #ededed, 5px 0px 5px #ededed, -5px 0px 5px #ededed;
+}
+@media all and (max-width: 950px) {
+  .carte {
+    width: 500px;
+    height: auto;
+  }
 }
 .carte section {
   display: flex;
@@ -492,10 +541,20 @@ footer .contact {
   width: 13%;
   margin-right: 50px;
 }
+@media all and (max-width: 950px) {
+  .carte section .menu-prix {
+    margin-right: 15px;
+  }
+}
 .carte section .menu-description {
   min-width: 50%;
   text-align: left;
   margin-left: 50px;
+}
+@media all and (max-width: 950px) {
+  .carte section .menu-description {
+    margin-left: 15px;
+  }
 }
 .carte--1 {
   background-color: #fcdfdb;
@@ -520,7 +579,7 @@ footer .contact {
 }
 
 body {
-  background-color: rgba(184, 8, 8, 0.8);
+  background-color: #ffffff;
   margin-top: 0px;
   /*max-width: 1000px;*/
   margin-left: auto;
