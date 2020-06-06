@@ -33,6 +33,16 @@
   /* menu 4 titre*/
   src: url(../police/kaushanscript/KaushanScript-Regular.ttf) format("truetype");
 }
+@font-face {
+  font-family: "montserratb";
+  /* titre*/
+  src: url(../police/montserrat/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "montserrat";
+  /* footer+prochainement*/
+  src: url(../police/montserrat/Montserrat-Regular.ttf) format("truetype");
+}
 h2 {
   text-align: center;
 }
@@ -40,6 +50,7 @@ h2 {
 footer p, footer a {
   color: #fdcb46;
   text-decoration: none;
+  font-family: "montserrat";
 }
 
 header h1, header a {
@@ -47,11 +58,15 @@ header h1, header a {
   text-align: center;
   margin: 0px;
   text-decoration: none;
+  font-family: "montserratb";
 }
 
 .next p {
   margin-bottom: 0px;
+  margin-top: 4px;
   color: #fdcb46;
+  font-family: "montserrat";
+  font-size: 22px;
 }
 
 .menu .mainmenu, .carte .mainmenu {
@@ -322,7 +337,7 @@ header h1, header a {
 .next {
   align-self: center;
   background-color: #579c87;
-  width: 30%;
+  width: 260px;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 60px;
