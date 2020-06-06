@@ -4,9 +4,9 @@
   src: url(../police/911Fonts.com_SegoePrint__-_911fonts.com_fonts_oki4.ttf) format("truetype");
 }
 @font-face {
-  font-family: "mashan";
+  font-family: "devon";
   /* menu 1 titre*/
-  src: url(../police/mashanzheng/MaShanZheng-Regular.ttf) format("truetype");
+  src: url(../police/devonshire/Devonshire-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "croissant";
@@ -73,7 +73,7 @@ header h1, header a {
 }
 .menu--1 .nom, .carte--1 .nom {
   color: black;
-  font-family: "mashan";
+  font-family: "devon";
   font-size: 34px;
   font-weight: lighter;
 }
