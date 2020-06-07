@@ -1,5 +1,5 @@
 .menues{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -7,6 +7,9 @@
     justify-content: center;
     align-items: center;
     align-content: space-around;
+    @media all and (max-width:1450px){
+        width: 80%;
+    }
     @media all and (max-width:1150px){
         width: 100%;
     }
