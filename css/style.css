@@ -140,6 +140,16 @@ header h1, header a {
     font-size: 12px;
   }
 }
+@media all and (max-width: 520px) {
+  .menu--1 .menu-description, .menu--1 .menu-prix, .carte--1 .menu-description, .carte--1 .menu-prix {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 420px) {
+  .menu--1 .menu-description, .menu--1 .menu-prix, .carte--1 .menu-description, .carte--1 .menu-prix {
+    font-size: 8px;
+  }
+}
 .menu--2 .mainmenu, .carte--2 .mainmenu {
   color: #c77412;
   font-weight: bolder;
@@ -242,6 +252,16 @@ header h1, header a {
     font-size: 12px;
   }
 }
+@media all and (max-width: 520px) {
+  .menu--2 .menu-description, .menu--2 .menu-prix, .carte--2 .menu-description, .carte--2 .menu-prix {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 420px) {
+  .menu--2 .menu-description, .menu--2 .menu-prix, .carte--2 .menu-description, .carte--2 .menu-prix {
+    font-size: 8px;
+  }
+}
 .menu--2 .underline, .carte--2 .underline {
   font-weight: bold;
   font-family: "martel";
@@ -294,6 +314,11 @@ header h1, header a {
     font-size: 10px;
   }
 }
+@media all and (max-width: 420px) {
+  .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
+    font-size: 8px;
+  }
+}
 .menu--4 .mainmenu, .carte--4 .mainmenu {
   color: #72bf56;
   font-family: "typol";
@@ -343,6 +368,16 @@ header h1, header a {
 @media all and (max-width: 950px) {
   .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
     font-size: 14px;
+  }
+}
+@media all and (max-width: 520px) {
+  .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 420px) {
+  .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
+    font-size: 8px;
   }
 }
 
@@ -530,6 +565,16 @@ footer .contact {
     height: auto;
   }
 }
+@media all and (max-width: 520px) {
+  .carte {
+    width: 400px;
+  }
+}
+@media all and (max-width: 420px) {
+  .carte {
+    width: 300px;
+  }
+}
 .carte section {
   display: flex;
   flex-wrap: wrap;
@@ -551,6 +596,18 @@ footer .contact {
     margin-right: 15px;
   }
 }
+@media all and (max-width: 520px) {
+  .carte section .menu-prix {
+    margin-right: 5px;
+    width: auto;
+  }
+}
+@media all and (max-width: 420px) {
+  .carte section .menu-prix {
+    margin-right: 0px;
+    width: auto;
+  }
+}
 .carte section .menu-description {
   min-width: 50%;
   text-align: left;
@@ -559,6 +616,11 @@ footer .contact {
 @media all and (max-width: 950px) {
   .carte section .menu-description {
     margin-left: 15px;
+  }
+}
+@media all and (max-width: 520px) {
+  .carte section .menu-description {
+    margin-left: 5px;
   }
 }
 .carte--1 {
