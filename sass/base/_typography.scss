@@ -122,7 +122,10 @@ header{
             color: black;
             font-family: 'devon';
             font-size: 34px;
-            font-weight: lighter;            
+            font-weight: lighter;
+            @media all and (max-width:420px){
+                font-size: 24px;
+            }            
         }
         .underline{ 
             font-family: 'segoe';       
@@ -162,6 +165,9 @@ header{
             background-image: -webkit-linear-gradient((left, #d8852e 30%, #905bfd 66%));
             font-family: 'croissant';
             font-size: 24px;
+            @media all and (max-width:420px){
+                font-size: 18px;
+            }
         }
         .entree{
             color: #c67412;
@@ -232,6 +238,9 @@ header{
             font-family: 'dancing';
             font-size: 34px;
             margin: 0px;
+            @media all and (max-width:420px){
+                font-size: 24px;
+            }
         }
         .underline{ 
             font-family: 'segoe';
@@ -271,6 +280,9 @@ header{
             font-size: 34px;
             font-weight: lighter;
             margin: 0;
+            @media all and (max-width:420px){
+                font-size: 24px;
+            }
         }
         .underline{        
             @include underlines($color: black);            

@@ -105,6 +105,11 @@ header h1, header a {
   font-size: 34px;
   font-weight: lighter;
 }
+@media all and (max-width: 420px) {
+  .menu--1 .nom, .carte--1 .nom {
+    font-size: 24px;
+  }
+}
 .menu--1 .underline, .carte--1 .underline {
   font-family: "segoe";
   text-align: center;
@@ -161,6 +166,11 @@ header h1, header a {
   background-image: -webkit-linear-gradient(left, #d8852e 30%, #905bfd 66%);
   font-family: "croissant";
   font-size: 24px;
+}
+@media all and (max-width: 420px) {
+  .menu--2 .nom, .carte--2 .nom {
+    font-size: 18px;
+  }
 }
 .menu--2 .entree, .carte--2 .entree {
   color: #c67412;
@@ -278,6 +288,11 @@ header h1, header a {
   font-size: 34px;
   margin: 0px;
 }
+@media all and (max-width: 420px) {
+  .menu--3 .nom, .carte--3 .nom {
+    font-size: 24px;
+  }
+}
 .menu--3 .underline, .carte--3 .underline {
   font-family: "segoe";
   font-weight: bold;
@@ -332,6 +347,11 @@ header h1, header a {
   font-size: 34px;
   font-weight: lighter;
   margin: 0;
+}
+@media all and (max-width: 420px) {
+  .menu--4 .nom, .carte--4 .nom {
+    font-size: 24px;
+  }
 }
 .menu--4 .underline, .carte--4 .underline {
   text-align: center;
@@ -513,6 +533,11 @@ footer .contact {
   text-align: center;
   margin: 25px;
   box-shadow: 0px 5px 5px #ededed, 0px -5px 5px #ededed, 5px 0px 5px #ededed, -5px 0px 5px #ededed;
+}
+@media all and (max-width: 360px) {
+  .menu {
+    height: 400px;
+  }
 }
 .menu .menu-text {
   height: 100%;
