@@ -51,23 +51,41 @@
     position: relative;
     &:before,
     &:after {
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    width: 0px;
-    height: 2px;
-    margin: auto;
-    transition: all 0.2s ease-in-out;
-    transition-duration: 0.75s;
-    opacity: 0;
-    background-color: darken($color,5%);
-    left: 0;             
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        width: 0px;
+        height: 2px;
+        margin: auto;
+        transition: all 0.2s ease-in-out;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: darken($color,5%);
+        left: 0;             
     }       
 }
+@mixin size-text {
+    font-size: 14px;
+            @media all and (max-width:950px){
+                font-size: 12px;
+            }
+            @media all and (max-width:520px){
+                font-size: 10px;
+            }
+            @media all and (max-width:420px){
+                font-size: 8px;
+            }    
+}
 
+@mixin size-nom {
+    font-size: 34px;
+    @media all and (max-width:420px){
+        font-size: 24px;
+    } 
+}
 h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 footer{
@@ -121,11 +139,8 @@ header{
         .nom{
             color: black;
             font-family: 'devon';
-            font-size: 34px;
             font-weight: lighter;
-            @media all and (max-width:420px){
-                font-size: 24px;
-            }            
+            @include size-nom           
         }
         .underline{ 
             font-family: 'segoe';       
@@ -141,16 +156,7 @@ header{
         .menu-description, .menu-prix{
             font-family: 'segoe';
             font-weight: lighter;
-            font-size: 14px;
-            @media all and (max-width:950px){
-                font-size: 12px;
-            }
-            @media all and (max-width:520px){
-                font-size: 10px;
-            }
-            @media all and (max-width:420px){
-                font-size: 8px;
-            }
+            @include size-text;
         } 
     }
     &--2{
@@ -164,10 +170,7 @@ header{
             -webkit-text-fill-color: transparent;
             background-image: -webkit-linear-gradient((left, #d8852e 30%, #905bfd 66%));
             font-family: 'croissant';
-            font-size: 24px;
-            @media all and (max-width:420px){
-                font-size: 18px;
-            }
+            @include size-nom 
         }
         .entree{
             color: #c67412;
@@ -210,16 +213,7 @@ header{
         }
         .menu-description, .menu-prix{
             font-family: 'martel';
-            font-size: 14px;
-            @media all and (max-width:950px){
-                font-size: 12px;
-            }
-            @media all and (max-width:520px){
-                font-size: 10px;
-            }
-            @media all and (max-width:420px){
-                font-size: 8px;
-            }
+            @include size-text;
         }
         .underline{
             font-weight: bold;
@@ -235,12 +229,9 @@ header{
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-image: -webkit-linear-gradient(left, #0230df 30%, #1a91fb 66%);
-            font-family: 'dancing';
-            font-size: 34px;
+            font-family: 'dancing';            
             margin: 0px;
-            @media all and (max-width:420px){
-                font-size: 24px;
-            }
+            @include size-nom 
         }
         .underline{ 
             font-family: 'segoe';
@@ -257,13 +248,7 @@ header{
         .menu-description, .menu-prix{
             font-family: 'segoe';
             font-weight: bold;
-            font-size: 14px;
-            @media all and (max-width:950px){
-                font-size: 10px;
-            }
-            @media all and (max-width:420px){
-                font-size: 8px;
-            }
+            @include size-text;           
         }  
     }
     &--4{
@@ -277,12 +262,9 @@ header{
             -webkit-text-fill-color: transparent;
             background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
             font-family: 'typo';
-            font-size: 34px;
             font-weight: lighter;
             margin: 0;
-            @media all and (max-width:420px){
-                font-size: 24px;
-            }
+            @include size-nom 
         }
         .underline{        
             @include underlines($color: black);            
@@ -301,15 +283,7 @@ header{
         .menu-description, .menu-prix{
             font-family: 'typo';
             font-weight: normal;
-            @media all and (max-width:950px){
-                font-size: 14px;
-            }
-            @media all and (max-width:520px){
-                font-size: 10px;
-            }
-            @media all and (max-width:420px){
-                font-size: 8px;
-            }
+            @include size-text;           
         }    
     }
        

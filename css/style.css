@@ -55,7 +55,7 @@
 }
 h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 footer p, footer a {
@@ -102,8 +102,8 @@ header h1, header a {
 .menu--1 .nom, .carte--1 .nom {
   color: black;
   font-family: "devon";
-  font-size: 34px;
   font-weight: lighter;
+  font-size: 34px;
 }
 @media all and (max-width: 420px) {
   .menu--1 .nom, .carte--1 .nom {
@@ -165,11 +165,11 @@ header h1, header a {
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #d8852e 30%, #905bfd 66%);
   font-family: "croissant";
-  font-size: 24px;
+  font-size: 34px;
 }
 @media all and (max-width: 420px) {
   .menu--2 .nom, .carte--2 .nom {
-    font-size: 18px;
+    font-size: 24px;
   }
 }
 .menu--2 .entree, .carte--2 .entree {
@@ -285,8 +285,8 @@ header h1, header a {
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #0230df 30%, #1a91fb 66%);
   font-family: "dancing";
-  font-size: 34px;
   margin: 0px;
+  font-size: 34px;
 }
 @media all and (max-width: 420px) {
   .menu--3 .nom, .carte--3 .nom {
@@ -326,6 +326,11 @@ header h1, header a {
 }
 @media all and (max-width: 950px) {
   .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 520px) {
+  .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
     font-size: 10px;
   }
 }
@@ -344,9 +349,9 @@ header h1, header a {
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
   font-family: "typo";
-  font-size: 34px;
   font-weight: lighter;
   margin: 0;
+  font-size: 34px;
 }
 @media all and (max-width: 420px) {
   .menu--4 .nom, .carte--4 .nom {
@@ -384,10 +389,11 @@ header h1, header a {
 .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
   font-family: "typo";
   font-weight: normal;
+  font-size: 14px;
 }
 @media all and (max-width: 950px) {
   .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media all and (max-width: 520px) {
@@ -503,7 +509,6 @@ footer .contact {
 }
 
 .menues {
-  width: 70%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -512,11 +517,6 @@ footer .contact {
   align-items: center;
   align-content: space-around;
 }
-@media all and (max-width: 1450px) {
-  .menues {
-    width: 80%;
-  }
-}
 @media all and (max-width: 1150px) {
   .menues {
     width: 100%;
@@ -524,12 +524,8 @@ footer .contact {
 }
 
 .menu {
-  /* display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-   justify-content: space-around;*/
-  width: 400px;
-  height: 500px;
+  width: 500px;
+  height: 700px;
   text-align: center;
   margin: 25px;
   box-shadow: 0px 5px 5px #ededed, 0px -5px 5px #ededed, 5px 0px 5px #ededed, -5px 0px 5px #ededed;
