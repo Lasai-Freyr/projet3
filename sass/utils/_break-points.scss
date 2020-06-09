@@ -1,0 +1,36 @@
+@mixin media-menu {
+    @media all and (max-width:1300px){         
+            width: 100%; 
+            .menu{
+                width: 400px;
+                height: 600px;            
+            } 
+    } 
+    @media all and (max-width:520px){
+        .menu{
+            width: 400px;
+            height: 500px;      
+        }
+    }    
+}
+
+@mixin media-carte {
+    @media all and (max-width:950px){
+        width: 80%;
+        height: auto;
+        .menu-prix,.title{
+            margin-right: 15px;
+        }
+        .menu-description,.title{
+            margin-left:15px;
+        }
+    }
+    @media all and (max-width:520px){
+        .menu-prix,.title{
+            margin-right: 5px;
+        }
+        .menu-description,.title{
+            margin-left:5px;
+        }
+    } 
+}

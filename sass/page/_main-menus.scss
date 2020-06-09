@@ -6,10 +6,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-content: space-around;    
-    @media all and (max-width:1150px){
-        width: 100%;
-    }
+    align-content: space-around;
+    @include media-menu; 
 }
 
 .menu{        
@@ -17,11 +15,7 @@
     height: 700px;
     text-align: center;
     margin: 30px; 
-    box-shadow: 0px 5px 5px #ededed,0px -5px 5px #ededed,5px 0px 5px #ededed,-5px 0px 5px #ededed;
-    @media all and (max-width:1300px){
-        width: 400px;
-        height: 600px;
-    }
+    box-shadow: 0px 5px 5px #ededed,0px -5px 5px #ededed,5px 0px 5px #ededed,-5px 0px 5px #ededed;   
     @media all and (max-width:360px){
         height: 400px;
     }
@@ -40,16 +34,16 @@
     }
     
     &--1{
-        background-color: #fcdfdb;    
+        background-color: $color-back-menu1;    
     }
     &--2{
-        background-color: #fff5fe;
+        background-color: $color-back-menu2;
     }
     &--3{
-        background-color: #f9f9f9;
+        background-color: $color-back-menu3;
     }
     &--4{
-        background-color: #fdfffd;
+        background-color: $color-back-menu4;
     }    
 
     

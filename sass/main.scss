@@ -1,3 +1,7 @@
+@import"./utils/variables";
+@import"./utils/mixin.scss";
+@import"./utils/break-points.scss";
+
 @import"./base/typography.scss";
 
 @import "./components/wiggle.scss";
@@ -9,9 +13,6 @@
 
 @import"./page/main-menus.scss";
 @import"./page/cartesmenu.scss";
-
-@import"./utils/variables";
-@import"./utils/mixin.scss";
 
 body{
     background-color:  #ffffff;

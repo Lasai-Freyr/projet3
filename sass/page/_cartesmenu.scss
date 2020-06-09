@@ -1,0 +1,77 @@
+.carte{        
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;    
+    width: 800px;
+    height: 900px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    box-shadow: 0px 5px 5px #ededed,0px -5px 5px #ededed,5px 0px 5px #ededed,-5px 0px 5px #ededed;      
+       
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .menu-prix{
+        margin-right: 50px;                  
+    }
+
+    .menu-description{
+        min-width: 50%;
+        text-align: left;
+        margin-right: 10px;
+        margin-left: 50px;
+        margin-bottom: 5px;                      
+    }
+}
+
+.carte{
+    div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: normal;
+    }
+    .title{
+        align-items: center;
+        justify-content: center;        
+    }
+    .img{
+        width: 35%;
+    }   
+    &--1{
+        background-color:$color-back-menu1;
+        .title{
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+    }        
+    &--2{
+        background-color: $color-back-menu2;
+        .title{
+            margin-right: 10px;
+            margin-left: 10px;
+        }        
+    }
+    &--3{
+        background-color: $color-back-menu3;
+        .title{
+            margin-right: 10px;
+            margin-left: 10px;
+        }         
+    }
+    &--4{
+        background-color: $color-back-menu4;
+        .title{
+            margin-right: 50px;
+            margin-left: 50px;
+        }        
+    }
+    @include media-carte;   
+}

@@ -88,16 +88,12 @@ header h1, header a {
 .menu .nom, .carte .nom {
   margin: 0;
 }
+.menu--1, .carte--1 {
+  font-family: "segoe";
+}
 .menu--1 .mainmenu, .carte--1 .mainmenu {
   color: black;
   font-weight: bold;
-  font-family: "segoe";
-}
-.menu--1 .fas, .carte--1 .fas {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(left, #f15a61 80%, #f6916a 30%);
-  size: 160px;
 }
 .menu--1 .nom, .carte--1 .nom {
   color: black;
@@ -105,13 +101,12 @@ header h1, header a {
   font-weight: lighter;
   font-size: 34px;
 }
-@media all and (max-width: 420px) {
+@media all and (max-width: 520px) {
   .menu--1 .nom, .carte--1 .nom {
     font-size: 24px;
   }
 }
 .menu--1 .underline, .carte--1 .underline {
-  font-family: "segoe";
   text-align: center;
   margin: 0 auto;
   padding: 0;
@@ -136,24 +131,7 @@ header h1, header a {
   opacity: 1;
 }
 .menu--1 .menu-description, .menu--1 .menu-prix, .carte--1 .menu-description, .carte--1 .menu-prix {
-  font-family: "segoe";
   font-weight: lighter;
-  font-size: 14px;
-}
-@media all and (max-width: 950px) {
-  .menu--1 .menu-description, .menu--1 .menu-prix, .carte--1 .menu-description, .carte--1 .menu-prix {
-    font-size: 12px;
-  }
-}
-@media all and (max-width: 520px) {
-  .menu--1 .menu-description, .menu--1 .menu-prix, .carte--1 .menu-description, .carte--1 .menu-prix {
-    font-size: 10px;
-  }
-}
-@media all and (max-width: 420px) {
-  .menu--1 .menu-description, .menu--1 .menu-prix, .carte--1 .menu-description, .carte--1 .menu-prix {
-    font-size: 8px;
-  }
 }
 .menu--2 .mainmenu, .carte--2 .mainmenu {
   color: #c77412;
@@ -165,15 +143,15 @@ header h1, header a {
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #d8852e 30%, #905bfd 66%);
   font-family: "croissant";
-  font-size: 34px;
+  font-size: 30px;
 }
-@media all and (max-width: 420px) {
+@media all and (max-width: 520px) {
   .menu--2 .nom, .carte--2 .nom {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 .menu--2 .entree, .carte--2 .entree {
-  color: #c67412;
+  color: #c77412;
 }
 .menu--2 .entree .underline, .carte--2 .entree .underline {
   text-align: center;
@@ -192,7 +170,7 @@ header h1, header a {
   transition: all 0.2s ease-in-out;
   transition-duration: 0.75s;
   opacity: 0;
-  background-color: #af6610;
+  background-color: #b06610;
   left: 0;
 }
 .menu--2 .entree .underline:hover:before, .menu--2 .entree .underline:hover:after, .carte--2 .entree .underline:hover:before, .carte--2 .entree .underline:hover:after {
@@ -230,6 +208,8 @@ header h1, header a {
   color: #6e4ccc;
 }
 .menu--2 .dessert .underline, .carte--2 .dessert .underline {
+  font-weight: bold;
+  font-family: "martel";
   text-align: center;
   margin: 0 auto;
   padding: 0;
@@ -255,30 +235,12 @@ header h1, header a {
 }
 .menu--2 .menu-description, .menu--2 .menu-prix, .carte--2 .menu-description, .carte--2 .menu-prix {
   font-family: "martel";
-  font-size: 14px;
 }
-@media all and (max-width: 950px) {
-  .menu--2 .menu-description, .menu--2 .menu-prix, .carte--2 .menu-description, .carte--2 .menu-prix {
-    font-size: 12px;
-  }
-}
-@media all and (max-width: 520px) {
-  .menu--2 .menu-description, .menu--2 .menu-prix, .carte--2 .menu-description, .carte--2 .menu-prix {
-    font-size: 10px;
-  }
-}
-@media all and (max-width: 420px) {
-  .menu--2 .menu-description, .menu--2 .menu-prix, .carte--2 .menu-description, .carte--2 .menu-prix {
-    font-size: 8px;
-  }
-}
-.menu--2 .underline, .carte--2 .underline {
-  font-weight: bold;
-  font-family: "martel";
+.menu--3, .carte--3 {
+  font-family: "segoe";
 }
 .menu--3 .mainmenu, .carte--3 .mainmenu {
   color: #0887fb;
-  font-family: "segoe";
 }
 .menu--3 .nom, .carte--3 .nom {
   -webkit-background-clip: text;
@@ -288,13 +250,12 @@ header h1, header a {
   margin: 0px;
   font-size: 34px;
 }
-@media all and (max-width: 420px) {
+@media all and (max-width: 520px) {
   .menu--3 .nom, .carte--3 .nom {
     font-size: 24px;
   }
 }
 .menu--3 .underline, .carte--3 .underline {
-  font-family: "segoe";
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
@@ -320,24 +281,11 @@ header h1, header a {
   opacity: 1;
 }
 .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
-  font-family: "segoe";
   font-weight: bold;
-  font-size: 14px;
 }
-@media all and (max-width: 950px) {
-  .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
-    font-size: 12px;
-  }
-}
-@media all and (max-width: 520px) {
-  .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
-    font-size: 10px;
-  }
-}
-@media all and (max-width: 420px) {
-  .menu--3 .menu-description, .menu--3 .menu-prix, .carte--3 .menu-description, .carte--3 .menu-prix {
-    font-size: 8px;
-  }
+.menu--4, .carte--4 {
+  font-family: "typo";
+  font-weight: normal;
 }
 .menu--4 .mainmenu, .carte--4 .mainmenu {
   color: #72bf56;
@@ -348,12 +296,11 @@ header h1, header a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
-  font-family: "typo";
   font-weight: lighter;
   margin: 0;
   font-size: 34px;
 }
-@media all and (max-width: 420px) {
+@media all and (max-width: 520px) {
   .menu--4 .nom, .carte--4 .nom {
     font-size: 24px;
   }
@@ -382,46 +329,17 @@ header h1, header a {
   width: 100%;
   opacity: 1;
 }
-.menu--4 .underline, .carte--4 .underline {
-  font-family: "typo";
-  font-weight: normal;
-}
-.menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
-  font-family: "typo";
-  font-weight: normal;
-  font-size: 14px;
-}
-@media all and (max-width: 950px) {
-  .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
-    font-size: 12px;
-  }
-}
-@media all and (max-width: 520px) {
-  .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
-    font-size: 10px;
-  }
-}
-@media all and (max-width: 420px) {
-  .menu--4 .menu-description, .menu--4 .menu-prix, .carte--4 .menu-description, .carte--4 .menu-prix {
-    font-size: 8px;
-  }
-}
 
 .note {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(left, #f05160 20%, #f6916a 80%);
+  color: #f05160;
   width: auto;
   text-align: center;
   font-size: 50px;
-}
-
-.next .fas {
-  color: #fdcb46;
+  flex-direction: column;
 }
 
 .wiggle:hover {
-  animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 2;
+  animation: headshake 200ms cubic-bezier(0.4, 0.1, 0.6, 0.9) infinite;
 }
 
 @keyframes headshake {
@@ -518,9 +436,19 @@ footer .contact {
   align-items: center;
   align-content: space-around;
 }
-@media all and (max-width: 1150px) {
+@media all and (max-width: 1300px) {
   .menues {
     width: 100%;
+  }
+  .menues .menu {
+    width: 400px;
+    height: 600px;
+  }
+}
+@media all and (max-width: 520px) {
+  .menues .menu {
+    width: 400px;
+    height: 500px;
   }
 }
 
@@ -530,12 +458,6 @@ footer .contact {
   text-align: center;
   margin: 30px;
   box-shadow: 0px 5px 5px #ededed, 0px -5px 5px #ededed, 5px 0px 5px #ededed, -5px 0px 5px #ededed;
-}
-@media all and (max-width: 1300px) {
-  .menu {
-    width: 400px;
-    height: 600px;
-  }
 }
 @media all and (max-width: 360px) {
   .menu {
@@ -561,7 +483,7 @@ footer .contact {
   background-color: #fff5fe;
 }
 .menu--3 {
-  background-color: #f9f9f9;
+  background-color: #edefef;
 }
 .menu--4 {
   background-color: #fdfffd;
@@ -580,28 +502,12 @@ footer .contact {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  width: 680px;
-  height: 800px;
+  width: 800px;
+  height: 900px;
   text-align: center;
   margin: auto;
   margin-bottom: 40px;
   box-shadow: 0px 5px 5px #ededed, 0px -5px 5px #ededed, 5px 0px 5px #ededed, -5px 0px 5px #ededed;
-}
-@media all and (max-width: 950px) {
-  .carte {
-    width: 500px;
-    height: auto;
-  }
-}
-@media all and (max-width: 520px) {
-  .carte {
-    width: 400px;
-  }
-}
-@media all and (max-width: 420px) {
-  .carte {
-    width: 300px;
-  }
 }
 .carte section {
   display: flex;
@@ -610,67 +516,77 @@ footer .contact {
   justify-content: space-between;
   align-items: baseline;
 }
-.carte section h3 {
-  width: 80%;
-  margin: auto;
-}
-.carte section .menu-prix {
-  text-align: right;
-  width: 13%;
+.carte .menu-prix {
   margin-right: 50px;
 }
-@media all and (max-width: 950px) {
-  .carte section .menu-prix {
-    margin-right: 15px;
-  }
-}
-@media all and (max-width: 520px) {
-  .carte section .menu-prix {
-    margin-right: 5px;
-    width: auto;
-  }
-}
-@media all and (max-width: 420px) {
-  .carte section .menu-prix {
-    margin-right: 0px;
-    width: auto;
-  }
-}
-.carte section .menu-description {
+.carte .menu-description {
   min-width: 50%;
   text-align: left;
+  margin-right: 10px;
   margin-left: 50px;
+  margin-bottom: 5px;
 }
-@media all and (max-width: 950px) {
-  .carte section .menu-description {
-    margin-left: 15px;
-  }
+
+.carte div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: normal;
 }
-@media all and (max-width: 520px) {
-  .carte section .menu-description {
-    margin-left: 5px;
-  }
+.carte .title {
+  align-items: center;
+  justify-content: center;
+}
+.carte .img {
+  width: 35%;
 }
 .carte--1 {
   background-color: #fcdfdb;
 }
+.carte--1 .title {
+  margin-right: 50px;
+  margin-left: 50px;
+}
 .carte--2 {
   background-color: #fff5fe;
 }
-.carte--2 h2 {
-  color: #c77412;
+.carte--2 .title {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .carte--3 {
-  background-color: #f9f9f9;
+  background-color: #edefef;
 }
-.carte--3 h2 {
-  color: #0887fb;
+.carte--3 .title {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .carte--4 {
   background-color: #fdfffd;
 }
-.carte--4 h2 {
-  color: #72bf56;
+.carte--4 .title {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+@media all and (max-width: 950px) {
+  .carte {
+    width: 80%;
+    height: auto;
+  }
+  .carte .menu-prix, .carte .title {
+    margin-right: 15px;
+  }
+  .carte .menu-description, .carte .title {
+    margin-left: 15px;
+  }
+}
+@media all and (max-width: 520px) {
+  .carte .menu-prix, .carte .title {
+    margin-right: 5px;
+  }
+  .carte .menu-description, .carte .title {
+    margin-left: 5px;
+  }
 }
 
 body {

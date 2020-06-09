@@ -5,7 +5,7 @@ $anim-delay:$anim-dur/$num-dot;
 
 .next{
     align-self: center;
-    background-color:#579c87;
+    background-color:$color-primary;
     width: 260px;
     margin: auto;
     margin-top: 40px;
@@ -22,7 +22,7 @@ $anim-delay:$anim-dur/$num-dot;
         display: flex;
         justify-content: space-evenly;
         &__dot{
-            color: #fdcb46;
+            color: $color-secondary;
             height: 100%;
             width: $size;
             animation: dots $anim-dur backwards infinite ease-in-out alternate;

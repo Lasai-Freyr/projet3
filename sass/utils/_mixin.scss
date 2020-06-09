@@ -1,9 +1,28 @@
-@mixin trans-menu{
-    opacity: 0.5;
-    scale: 1.1;
+@mixin underlines($color) {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        width: 0px;
+        height: 2px;
+        margin: auto;
+        transition: all 0.2s ease-in-out;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: darken($color,5%);
+        left: 0;             
+    }       
 }
 
-@mixin dim-main-menu{
-    width: 30%;
-    height: 400px;
+@mixin size-nom {
+    font-size: 34px;
+    @media all and (max-width:520px){
+        font-size: 24px;
+    } 
 }

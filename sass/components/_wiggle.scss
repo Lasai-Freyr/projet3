@@ -1,7 +1,7 @@
 
 .wiggle{
     &:hover{
-        animation: headshake 100ms cubic-bezier(.4,.1,.6,.9) 2;
+        animation: headshake 200ms cubic-bezier(.4,.1,.6,.9) infinite;
     }
 
 }
