@@ -1,6 +1,6 @@
 .menues{
     margin: auto;
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -11,14 +11,11 @@
 }
 
 .menu{        
-    width: 500px;
-    height: 700px;
+    width: 450px;
+    height: 550px;
     text-align: center;
-    margin: 30px; 
-    box-shadow: 0px 5px 5px #ededed,0px -5px 5px #ededed,5px 0px 5px #ededed,-5px 0px 5px #ededed;   
-    @media all and (max-width:360px){
-        height: 400px;
-    }
+    margin: 35px; 
+    box-shadow: 0px 5px 5px $color-shadow,0px -5px 5px $color-shadow,5px 0px 5px $color-shadow,-5px 0px 5px $color-shadow;    
     
     .menu-text{
         height: 100%;
@@ -36,16 +33,18 @@
     &--1{
         background-color: $color-back-menu1;    
     }
+
     &--2{
         background-color: $color-back-menu2;
     }
+
     &--3{
         background-color: $color-back-menu3;
     }
+    
     &--4{
         background-color: $color-back-menu4;
     }    
-
     
     a{
         text-decoration: none;
@@ -53,7 +52,6 @@
         height: 100%;
         display: flex;
         flex-direction: column;  
-        justify-content: center;
-               
+        justify-content: center;               
     }
 }
