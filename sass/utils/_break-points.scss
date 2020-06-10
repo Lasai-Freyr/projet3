@@ -1,17 +1,19 @@
 @mixin media-menu {
-    @media all and (max-width:1300px){
-        width: 100%;
+    @media all and (max-width:960px){
+        .menu{
+            margin: 20px;
+            width: 350px;
+        }
     }
     @media all and (max-width:520px){
         .menu{
-            width: 400px;
             height: 500px;      
         }
     }    
 }
 
 @mixin media-carte {
-    @media all and (max-width:950px){
+    @media all and (max-width:960px){
         width: 95%;
         height: auto;
         span{

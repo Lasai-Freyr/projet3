@@ -134,12 +134,12 @@ header{
             -webkit-text-fill-color: transparent;
             background-image: -webkit-linear-gradient((left, #d8852e 30%, #905bfd 66%));
             font-family: 'croissant';
-            font-size: 30px;
-            @media all and (max-width:950px){
-                font-size: 24px; 
+            font-size: 25px;
+            @media all and (max-width:960px){
+                font-size: 22px; 
             }
             @media all and (max-width:520px){
-                font-size: 20px; 
+                font-size: 18px; 
             }
         }
 

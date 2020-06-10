@@ -21,15 +21,15 @@
 }
 
 @mixin size-nom {
-    font-size: 46px;
-    @media all and (max-width:520px){
-        font-size: 32px;
+    font-size: 38px;
+    @media all and (max-width:960px){
+        font-size: 30px;
     } 
 }
 
 @mixin size-mainmenu {
     font-size: 50px;
-    @media all and (max-width:950px){
+    @media all and (max-width:960px){
         font-size: 45px;
     } 
     
