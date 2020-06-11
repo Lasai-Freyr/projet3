@@ -256,10 +256,17 @@ header{
     flex-direction: column;
 }
 
-.carte h3{
+.carte {
+    h3{
     font-size: 22px;
     width: auto;
     margin-top: 10px;
     margin-bottom: 30px;
-}
+    }
 
+    .nom{
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
