@@ -193,5 +193,8 @@ header{
         font-size: 50px;
         margin-top: 30px;
         margin-bottom: 30px;
+        @media all and (max-width:960px){
+            font-size: 40px; 
+        }
     }
 }
