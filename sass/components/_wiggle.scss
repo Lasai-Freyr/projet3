@@ -1,15 +1,14 @@
-
 .wiggle{
     &:hover{
         animation: headshake 200ms cubic-bezier(.4,.1,.6,.9) infinite;
     }
-
 }
 
 @keyframes headshake{
     25%{
         transform: translateX(2%);
     }
+    
     75%{
         transform: translateX(2%*-1);
     }
