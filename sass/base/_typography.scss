@@ -209,30 +209,39 @@ header{
 
 }
 
-      
-span{
-    @media all and (max-width:960px){  
-        font-size: 16px;
+.carte{     
+    .menu-description{
+        min-width: 50%;
+        text-align: left;               
+    } 
+
+    span{
+        margin-bottom: 15px;
+        @media all and (max-width:960px){  
+            font-size: 16px;
+        }
+        @media all and (max-width:520px){
+            font-size: 14px;
+        }
+    }   
+    
+    .menu-prix,.title{
+        margin-right: 50px;
+        @media all and (max-width:960px){ 
+            margin-right: 15px;
+        }
+        @media all and (max-width:520px){
+            margin-right: 5px;
+        }
     }
-    @media all and (max-width:520px){
-        font-size: 14px;
-    }
-}   
-.menu-prix,.title{
-    @media all and (max-width:960px){ 
-        margin-right: 15px;
-    }
-    @media all and (max-width:520px){
-        margin-right: 5px;
+
+    .menu-description,.title{
+        margin-left: 50px;
+        @media all and (max-width:960px){ 
+            margin-left:15px;
+        }    
+        @media all and (max-width:520px){
+            margin-left:5px;
+        }
     }
 }
-
-.menu-description,.title{
-    @media all and (max-width:960px){ 
-        margin-left:15px;
-    }    
-    @media all and (max-width:520px){
-        margin-left:5px;
-    }
-}
-
