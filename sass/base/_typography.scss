@@ -85,7 +85,9 @@ header{
     }
 
     .nom{
-        margin: 0;
+        margin: 0; 
+        margin-top: 30px;
+        margin-bottom: 30px;            
     }
 }
 
@@ -101,7 +103,7 @@ header{
             color: black;
             font-family: 'devon';
             font-weight: lighter;
-            @include size-nom           
+                     
         }  
         
         .menu-description, .menu-prix{            
@@ -121,14 +123,7 @@ header{
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-image: -webkit-linear-gradient((left, #d8852e 30%, #905bfd 66%));
-            font-family: 'croissant';
-            font-size: 25px;
-            @media all and (max-width:960px){
-                font-size: 22px; 
-            }
-            @media all and (max-width:520px){
-                font-size: 18px; 
-            }
+            font-family: 'croissant';         
         }           
     }
 
@@ -144,7 +139,6 @@ header{
             background-image: -webkit-linear-gradient(left, #0230df 30%, #1a91fb 66%);
             font-family: 'dancing';            
             margin: 0px;
-            @include size-nom 
         }
         
         .menu-description, .menu-prix{
@@ -167,7 +161,6 @@ header{
             background-image: -webkit-linear-gradient(left, #3e923a 30%, #beff7f 66%);
             font-weight: lighter;
             margin: 0;
-            @include size-nom 
         }        
     }       
 }
@@ -197,22 +190,13 @@ header{
             font-size: 16px;
         }
     }
-
-    .nom{
-        font-size: 50px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        @media all and (max-width:960px){
-            font-size: 40px; 
-        }
-    }
-
 }
 
 .carte{     
     .menu-description{
         min-width: 50%;
-        text-align: left;               
+        text-align: left;
+        margin-right: 10px;               
     } 
 
     span{
@@ -243,5 +227,32 @@ header{
         @media all and (max-width:520px){
             margin-left:5px;
         }
+    }
+}
+
+.menu{
+    &--1,&--3,&--4{
+        .nom{        
+            @include size-nom  
+        }
+    }
+    &--2{
+        font-size: 25px;   
+        @media all and (max-width:960px){
+            font-size: 25px; 
+        }
+        @media all and (max-width:520px){
+            font-size: 22px; 
+        }
+    }
+}
+    
+
+.carte{
+    .nom{        
+        font-size: 50px;
+        @media all and (max-width:960px){
+            font-size: 40px;
+        }        
     }
 }
